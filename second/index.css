@@ -1,0 +1,40 @@
+body {
+    background-color: #45aaf2;
+}
+
+.form {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: #45aaf2;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+img {
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.dot {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.dot-wrap {
+    text-align: center;
+}
