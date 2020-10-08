@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #30336b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    border-radius: 15px;
+    vertical-align: middle;
+    margin: 20px;
+    width: 400px;
+}
+
+button {
+    all: unset;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 20px 5px;
+}
+
+.clicked {
+    background-color: #34ace0;
+}
